@@ -39,7 +39,7 @@ Your task is to write several functions that are the solution to the subtasks. S
 
 ---
 
-### **Count cats!**
+### **Count cats!** - DONE
 
 ![Count cats!](https://vg5b2ejdwb-flywheel.netdna-ssl.com/wp-content/uploads/2019/11/cats-in-boxes-03.jpg)  
 Your task is to count the cats hidden in the backyard (presented by two-dimensional `Array`). Cats hide well, but their **ears** (`"^^"`) are clearly visible. Your task is to implement the `countCats(backyard)` function that will count cats. Good luck!
@@ -93,7 +93,7 @@ Write your code in `src/carbon-dating.js`.
 
 ---
 
-### **Dream team**
+### **Dream team** - DONE
 
 ![Dream team](https://i0.wp.com/www.comicsbeat.com/wp-content/uploads/2021/05/power-rangers.jpg?fit=1420,945&ssl=1)  
 Imagine you and your friends decide to create a **dream team**. This team should have a cool secret name that contains encrypted information about it. For example, these may be the **first letters** of the names of its members in **upper case** **sorted alphabetically**.
@@ -319,7 +319,7 @@ Write your code in `src/common-character-count.js`.
 
 ---
 
-### **(ST) Delete digit**
+### **(ST) Delete digit** - DONE
 Your task is to implement function that accepts **integer number** (`n`) and returns maximal **number** you can obtain by deleting exactly one digit of the given number.
 
 For example:
@@ -364,7 +364,7 @@ Write your code in `src/file-names.js`.
 
 ---
 
-### **(ST) Get email domain**
+### **(ST) Get email domain** - DONE
 Your task is to implement function that accepts email address (`email`) and returns it's **domain**.  
 
 For example:
@@ -387,7 +387,7 @@ Write your code in `src/mac-adress.js`.
 
 ---
 
-### **(ST) Matrix elements sum**
+### **(ST) Matrix elements sum** - DONE
 Given **matrix**, a rectangular matrix of **integers**, just add up all the values that **don't appear below a "0"**.
 
 For example:
@@ -429,7 +429,7 @@ Write your code in `src/mine-sweeper.js`.
 
 ---
 
-### **(ST) Sort by height**
+### **(ST) Sort by height** - DONE
 Given an array with heights, sort them except if the value is `-1`.
 Your task is to implement function that accepts **array** (`arr`) and returns it **sorted**
 
@@ -441,7 +441,7 @@ Write your code in `src/sort-by-height.js`.
 
 ---
 
-### **(ST) Sum digits**
+### **(ST) Sum digits** - DONE
 Your task is to implement function that accepts a **number** (`n`) and returns the **sum of its digits** until we get to a **one digit number**.  
 
 For example:
