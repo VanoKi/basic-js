@@ -341,7 +341,7 @@ Write your code in `src/dns-stats.js`.
 
 ---
 
-### **(ST) Encode line**
+### **(ST) Encode line** - DONE
 Your task is to implement function that accepts **string** (`str`) and returns its encoded version.
 
 For example:
