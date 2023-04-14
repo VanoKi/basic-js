@@ -13,9 +13,19 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  */
 class DepthCalculator {
-  calculateDepth(/* arr */) {
-    throw new NotImplementedError('Not implemented');
+  calculateDepth(arr) {
+    //throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
+    let ans = []
+    for (let i of JSON.stringify(a)) {
+      if (i !== '['  && i !== ']'){
+          ans.push('')
+      } else {
+          ans.push(i)
+      }
+    }
+    let sortedArr = ans.join('').split(']').sort((a, b) => a.length - b.length)
+    return sortedArr[sortedArr.length - 1].length + 1
   }
 }
 
