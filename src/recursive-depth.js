@@ -16,18 +16,20 @@ class DepthCalculator {
   calculateDepth(arr) {
     //throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
-    let ans = []
-    for (let i of JSON.stringify(a)) {
-      if (i !== '['  && i !== ']'){
-          ans.push('')
-      } else {
-          ans.push(i)
+    if (!Array.isArray(arr)){
+      return 0
+    }
+    let depth = 1
+    for (let i of arr) {
+      let itemDepth = 1 + this.calculateDepth(i)
+      if (itemDepth > depth){
+        depth = itemDepth
       }
     }
-    let sortedArr = ans.join('').split(']').sort((a, b) => a.length - b.length)
-    return sortedArr[sortedArr.length - 1].length + 1
+    return depth
   }
 }
+const depthCalc = new DepthCalculator();
 
 module.exports = {
   DepthCalculator
