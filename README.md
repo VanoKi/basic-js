@@ -113,7 +113,7 @@ Write your code in `src/dream-team.js`.
 
 ---
 
-### **What season?**
+### **What season?** - DONE
 
 ![What season](https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/83/d2/T-T-224-four-seasons-posters-a4_ver_2.avif)  
 Your task is to implement the function `getSeason(date)` that accepts `Date` object and returns the time of the year that matches it.
