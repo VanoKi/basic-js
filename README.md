@@ -58,7 +58,7 @@ Write your code in `src/count-cats.js`.
 
 ---
 
-### **Carbon dating**
+### **Carbon dating**  - DONE
 
 ![Carbon dating](https://earthhow.com/wp-content/uploads/2018/12/Carbon-Dating-678x378.png)  
 To determine the age of archaeological finds, **radioisotope dating** is widely used. One of its types is **radiocarbon dating**.
