@@ -406,7 +406,7 @@ Write your code in `src/matrix-elements-sum.js`.
 
 ---
 
-### **(ST) Minesweeper**
+### **(ST) Minesweeper** - DONE!!!
 In the popular Minesweeper game you have a board with some mines and cells that have a **number** in it that indicates the total **number of mines** in the neighboring cells. Starting off with some arrangement of mines we want to create a Minesweeper game setup.
 
 For example:
