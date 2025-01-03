@@ -20,7 +20,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  * 
  */
 class VigenereCipheringMachine {
-  common(string, key, calculateIndex){
+  common(string, key, isEncrypt){
     let ans = ''
     let baseCharCode = 'a'.charCodeAt(0)
     for (let i = 0; i < string.length; i++) {
@@ -30,20 +30,16 @@ class VigenereCipheringMachine {
       }
       let keyIndex = key[i % key.length].toLowerCase().charCodeAt(0) - baseCharCode
       let textIndex = string[i].toLowerCase().charCodeAt(0) - baseCharCode
-      let newIndex = calculateIndex(textIndex, keyIndex)
+      let newIndex = isEncrypt ? ((textIndex + keyIndex) % 26) : (textIndex - keyIndex + 26) % 26
       ans += String.fromCharCode(newIndex + baseCharCode).toUpperCase()
     }
     return ans
   }
   encrypt(string, key) {
-    return this.common(string, key, (textIndex, keyIndex) => {
-      return (textIndex + keyIndex) % 26
-    })
+    return this.common(string, key, true)
   }
   decrypt(string, key) {
-    return this.common(string, key, (textIndex, keyIndex) => {
-      return (textIndex - keyIndex + 26) % 26;
-    });
+    return this.common(string, key, false)
   }
 }
 
