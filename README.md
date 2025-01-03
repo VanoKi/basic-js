@@ -352,7 +352,7 @@ Write your code in `src/encode-line.js`.
 
 ---
 
-### **(ST) File names** - Done
+### **(ST) File names** - DONE
 There's a list of file, since two files cannot have equal names, the one which comes later will have a suffix **(k)**, where k is the smallest **integer** such that the found name is not used yet.
 Your task is to implement function that accepts **array** of names (`names`) and returns an **array** of names that will be given to the files.
 
