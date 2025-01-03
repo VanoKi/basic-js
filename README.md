@@ -272,7 +272,7 @@ Write your code in `src/extended-repeater.js`.
 
 ---
 
-### **Vigenere cipher**
+### **Vigenere cipher** - DONE!!!
 
 ![Ciphering machine](https://live.staticflickr.com/1931/44960892745_471bee66bb_b.jpg)  
 Cryptography is awesome! Let's try to organize production of encryption machines. Our machines will use one of the encryption methods that are easy to understand, but also not amenable to simple cryptanalysis - the [**Vigenere cipher**](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher).
