@@ -20,7 +20,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  * 
  */
 class VigenereCipheringMachine {
-  encrypt(string, key) {
+  common(string, key, calculateIndex){
     let ans = ''
     let baseCharCode = 'a'.charCodeAt(0)
     for (let i = 0; i < string.length; i++) {
@@ -30,28 +30,22 @@ class VigenereCipheringMachine {
       }
       let keyIndex = key[i % key.length].toLowerCase().charCodeAt(0) - baseCharCode
       let textIndex = string[i].toLowerCase().charCodeAt(0) - baseCharCode
-      let newIndex = (textIndex + keyIndex) % 26
+      let newIndex = calculateIndex(textIndex, keyIndex)
       ans += String.fromCharCode(newIndex + baseCharCode).toUpperCase()
     }
     return ans
   }
+  encrypt(string, key) {
+    return this.common(string, key, (textIndex, keyIndex) => {
+      return (textIndex + keyIndex) % 26
+    })
+  }
   decrypt(string, key) {
-    let ans = ''
-    let baseCharCode = 'a'.charCodeAt(0)
-    for (let i = 0; i < string.length; i++) {
-      if(!string[i].match(/[a-z]/i)) {
-        ans += string[i]
-        continue
-      }
-      let keyIndex = key[i % key.length].toLowerCase().charCodeAt(0) - baseCharCode
-      let textIndex = string[i].toLowerCase().charCodeAt(0) - baseCharCode
-      let newIndex = (textIndex - keyIndex + 26) % 26
-      ans += String.fromCharCode(newIndex  + baseCharCode).toUpperCase()
-    }
-    return ans
+    return this.common(string, key, (textIndex, keyIndex) => {
+      return (textIndex - keyIndex + 26) % 26;
+    });
   }
 }
-
 
 module.exports = {
   VigenereCipheringMachine
