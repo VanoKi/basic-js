@@ -25,9 +25,9 @@ function repeater(str, options) {
   let inner = str + Array.from({length:additionRepeatTimes})
       .fill(addition)
       .join(additionSeparator)
-  return Array.from({length:options.repeatTimes})
+  return Array.from({length:repeatTimes})
       .fill(inner)
-      .join(options.separator)
+      .join(separator)
 }
 
 module.exports = {
