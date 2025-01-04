@@ -198,7 +198,7 @@ Write your code in `src/transform-array.js`.
 
 ---
 
-### **Chain maker**
+### **Chain maker** _ DONE
 
 ![Chaining](https://www.sdxcentral.com/cdn-cgi/image/w=748,h=374,fit=scale-down,f=auto,q=30/https://www.sdxcentral.com/wp-content/uploads/2018/08/Why-Problems-With-Service-Chaining-Are-Stalling-NFV.jpg)  
 Let's practice in [chaining](https://en.wikipedia.org/wiki/Method_chaining)!
