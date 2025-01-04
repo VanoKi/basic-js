@@ -176,7 +176,7 @@ Write your code in `src/hanoi-tower.js`.
 
 ---
 
-### **Transform array**
+### **Transform array** - DONE
 
 ![Transform array](https://www.capturehighered.com/wp-content/uploads/2019/02/The-Call-720x332.jpg)  
 Your task is to implement the function `transform(arr)` that takes an `array` and returns **transformed** array, based on the **control sequences** that `arr` contains.
