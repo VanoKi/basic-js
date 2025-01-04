@@ -39,7 +39,7 @@ Your task is to write several functions that are the solution to the subtasks. S
 
 ---
 
-### **Count cats!** - DONE
+### **Count cats!** 
 
 ![Count cats!](https://vg5b2ejdwb-flywheel.netdna-ssl.com/wp-content/uploads/2019/11/cats-in-boxes-03.jpg)  
 Your task is to count the cats hidden in the backyard (presented by two-dimensional `Array`). Cats hide well, but their **ears** (`"^^"`) are clearly visible. Your task is to implement the `countCats(backyard)` function that will count cats. Good luck!
@@ -58,7 +58,7 @@ Write your code in `src/count-cats.js`.
 
 ---
 
-### **Carbon dating**  - DONE
+### **Carbon dating**  
 
 ![Carbon dating](https://earthhow.com/wp-content/uploads/2018/12/Carbon-Dating-678x378.png)  
 To determine the age of archaeological finds, **radioisotope dating** is widely used. One of its types is **radiocarbon dating**.
@@ -93,7 +93,7 @@ Write your code in `src/carbon-dating.js`.
 
 ---
 
-### **Dream team** - DONE
+### **Dream team** 
 
 ![Dream team](https://i0.wp.com/www.comicsbeat.com/wp-content/uploads/2021/05/power-rangers.jpg?fit=1420,945&ssl=1)  
 Imagine you and your friends decide to create a **dream team**. This team should have a cool secret name that contains encrypted information about it. For example, these may be the **first letters** of the names of its members in **upper case** **sorted alphabetically**.
@@ -113,7 +113,7 @@ Write your code in `src/dream-team.js`.
 
 ---
 
-### **What season?** - DONE
+### **What season?** 
 
 ![What season](https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/83/d2/T-T-224-four-seasons-posters-a4_ver_2.avif)  
 Your task is to implement the function `getSeason(date)` that accepts `Date` object and returns the time of the year that matches it.
@@ -176,7 +176,7 @@ Write your code in `src/hanoi-tower.js`.
 
 ---
 
-### **Transform array** - DONE
+### **Transform array** 
 
 ![Transform array](https://www.capturehighered.com/wp-content/uploads/2019/02/The-Call-720x332.jpg)  
 Your task is to implement the function `transform(arr)` that takes an `array` and returns **transformed** array, based on the **control sequences** that `arr` contains.
@@ -198,7 +198,7 @@ Write your code in `src/transform-array.js`.
 
 ---
 
-### **Chain maker** _ DONE
+### **Chain maker** 
 
 ![Chaining](https://www.sdxcentral.com/cdn-cgi/image/w=748,h=374,fit=scale-down,f=auto,q=30/https://www.sdxcentral.com/wp-content/uploads/2018/08/Why-Problems-With-Service-Chaining-Are-Stalling-NFV.jpg)  
 Let's practice in [chaining](https://en.wikipedia.org/wiki/Method_chaining)!
@@ -225,7 +225,7 @@ Write your code in `src/simple-chain.js`.
 
 ---
 
-### **Recursive depth calculator** - DONE
+### **Recursive depth calculator** 
 
 ![Go deeper](https://i.imgur.com/k7lADiM.jpg)  
 Your task is to implement the class `DepthCalculator` with method `calculateDepth` that takes an `array` and returns its depth.
@@ -245,7 +245,7 @@ For example:
 Write your code in `src/recursive-depth.js`.
 
 ---
-### **Extended repeater** - DONE
+### **Extended repeater** 
 
 ![Extended repater](https://upload.wikimedia.org/wikipedia/commons/4/4b/Macaws_at_Jurong_Bird_Park_-Singapore-8.jpg)  
 Your task is to implement the function `repeater(str, options)`.
@@ -272,7 +272,7 @@ Write your code in `src/extended-repeater.js`.
 
 ---
 
-### **Vigenere cipher** - DONE!!!
+### **Vigenere cipher** 
 
 ![Ciphering machine](https://live.staticflickr.com/1931/44960892745_471bee66bb_b.jpg)  
 Cryptography is awesome! Let's try to organize production of encryption machines. Our machines will use one of the encryption methods that are easy to understand, but also not amenable to simple cryptanalysis - the [**Vigenere cipher**](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher).
@@ -308,7 +308,7 @@ Write your code in `src/vigenere-cipher.js`.
 
 ---
 
-### **(ST) Common character count** - DONE
+### **(ST) Common character count** 
 Your task is to implement function that accepts two **strings** (`s1` and `s2`) and returns **number** of common characters between them.
 
 For example:
@@ -319,7 +319,7 @@ Write your code in `src/common-character-count.js`.
 
 ---
 
-### **(ST) Delete digit** - DONE
+### **(ST) Delete digit** 
 Your task is to implement function that accepts **integer number** (`n`) and returns maximal **number** you can obtain by deleting exactly one digit of the given number.
 
 For example:
@@ -330,7 +330,7 @@ Write your code in `src/delete-digit.js`.
 
 ---
 
-### **(ST) DNS stat** - DONE
+### **(ST) DNS stat** 
 Your task is to implement function that accepts an **array** of domains (`domains`) and returns the **object** with the appearances of the DNS.
 
 For example:
@@ -341,7 +341,7 @@ Write your code in `src/dns-stats.js`.
 
 ---
 
-### **(ST) Encode line** - DONE
+### **(ST) Encode line** 
 Your task is to implement function that accepts **string** (`str`) and returns its encoded version.
 
 For example:
@@ -352,7 +352,7 @@ Write your code in `src/encode-line.js`.
 
 ---
 
-### **(ST) File names** - DONE
+### **(ST) File names** 
 There's a list of file, since two files cannot have equal names, the one which comes later will have a suffix **(k)**, where k is the smallest **integer** such that the found name is not used yet.
 Your task is to implement function that accepts **array** of names (`names`) and returns an **array** of names that will be given to the files.
 
@@ -364,7 +364,7 @@ Write your code in `src/file-names.js`.
 
 ---
 
-### **(ST) Get email domain** - DONE
+### **(ST) Get email domain** 
 Your task is to implement function that accepts email address (`email`) and returns it's **domain**.  
 
 For example:
@@ -375,7 +375,7 @@ Write your code in `src/get-email-domain.js`.
 
 ---
 
-### **(ST) Is MAC-48 Address?** - DONE
+### **(ST) Is MAC-48 Address?** 
 The **MAC-48 address** is six groups of two hexadecimal digits (0 to 9 or A to F) separated by hyphens.
 Your task is to implement function that accepts **string** (`inputString`) and returns `true` if **string** is valid **MAC-48 address**.  
 
@@ -387,7 +387,7 @@ Write your code in `src/mac-adress.js`.
 
 ---
 
-### **(ST) Matrix elements sum** - DONE
+### **(ST) Matrix elements sum** 
 Given **matrix**, a rectangular matrix of **integers**, just add up all the values that **don't appear below a "0"**.
 
 For example:
@@ -406,7 +406,7 @@ Write your code in `src/matrix-elements-sum.js`.
 
 ---
 
-### **(ST) Minesweeper** - DONE!!!
+### **(ST) Minesweeper** 
 In the popular Minesweeper game you have a board with some mines and cells that have a **number** in it that indicates the total **number of mines** in the neighboring cells. Starting off with some arrangement of mines we want to create a Minesweeper game setup.
 
 For example:
@@ -429,7 +429,7 @@ Write your code in `src/mine-sweeper.js`.
 
 ---
 
-### **(ST) Sort by height** - DONE
+### **(ST) Sort by height** 
 Given an array with heights, sort them except if the value is `-1`.
 Your task is to implement function that accepts **array** (`arr`) and returns it **sorted**
 
@@ -441,7 +441,7 @@ Write your code in `src/sort-by-height.js`.
 
 ---
 
-### **(ST) Sum digits** - DONE
+### **(ST) Sum digits** 
 Your task is to implement function that accepts a **number** (`n`) and returns the **sum of its digits** until we get to a **one digit number**.  
 
 For example:
