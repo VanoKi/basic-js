@@ -14,6 +14,9 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  */
 function createDreamTeam(arr) {
+  if (!Array.isArray(arr)) {
+    return false
+  }
   //throw new NotImplementedError('Not implemented');
   // remove line with error and write your code here
     let ans = []

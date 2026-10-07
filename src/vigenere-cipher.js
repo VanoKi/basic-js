@@ -58,5 +58,7 @@ class VigenereCipheringMachine {
   }
 }
 module.exports = {
+  directMachine: new VigenereCipheringMachine(),
+  reverseMachine: new VigenereCipheringMachine(false),
   VigenereCipheringMachine
 };
